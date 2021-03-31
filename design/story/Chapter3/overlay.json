@@ -1,0 +1,26 @@
+{
+  "ProjectVersion": "0.2a",
+  "EditorConfig": {
+    "usePixel2D": false,
+    "canvasSize": "(-2, 2, -2, 2)"
+  },
+  "ComponentList": {
+    "pg202": {
+      "element": {
+        "frameColor": "(1.0, 1.0, 1.0, 0.0)",
+        "frameSize": "(-1, 1, -1, 1)",
+        "hpr": "LVecBase3f(0, 0, 0)",
+        "image": "'chapter3/overlay.png'",
+        "pos": "LPoint3f(0, 0, 0)",
+        "image_scale": "LVecBase3f(0.8, 1, 0.8)",
+        "image_pos": "LPoint3f(0, 0, 0)",
+        "transparency": "1"
+      },
+      "type": "DirectFrame",
+      "parent": "root",
+      "command": null,
+      "extraArgs": null,
+      "extraOptions": {}
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "ProjectVersion": "0.2a",
+  "EditorConfig": {
+    "usePixel2D": false,
+    "canvasSize": "(-2, 2, -2, 2)"
+  },
+  "ComponentList": {
+    "volume": {
+      "element": {
+        "hpr": "LVecBase3f(0, 0, 0)",
+        "pos": "LPoint3f(0.2, 0, 0.325)",
+        "text": "'Volume'",
+        "value": "0.3904760777950287",
+        "text_align": "TextNode.A_right",
+        "text_scale": "(0.1, 0.1)",
+        "text_pos": "(-1.05, -0.02)",
+        "text_fg": "LVecBase4f(1, 1, 1, 1)",
+        "text_bg": "LVecBase4f(0, 0, 0, 0)",
+        "text_wordwrap": "None",
+        "thumb_frameSize": "(-0.05, 0.05, -0.08, 0.08)",
+        "thumb_hpr": "LVecBase3f(0, 0, 0)",
+        "thumb_pos": "LPoint3f(-0.208095, 0, 0)",
+        "transparency": "0"
+      },
+      "type": "DirectSlider",
+      "parent": "root",
+      "command": "base.messenger.send",
+      "extraArgs": "\"volumeChange\"",
+      "extraOptions": {}
+    },
+    "audioMute": {
+      "element": {
+        "boxImage": "''",
+        "frameSize": "(-2.925000047683716, 3.024999713897705, -0.225, 0.8250000238418579)",
+        "hpr": "LVecBase3f(0, 0, 0)",
+        "pos": "LPoint3f(0, 0, 0)",
+        "scale": "LVecBase3f(0.1, 0.1, 0.1)",
+        "text": "'Mute'",
+        "indicator_hpr": "LVecBase3f(0, 0, 0)",
+        "indicator_pos": "LPoint3f(-2.55, 0, 0)",
+        "indicator_relief": "'sunken'",
+        "indicator_text_align": "TextNode.A_center",
+        "indicator_text_scale": "(1, 1)",
+        "indicator_text_pos": "(0, -0.2)",
+        "indicator_text_fg": "LVecBase4f(0, 0, 0, 1)",
+        "indicator_text_bg": "LVecBase4f(0, 0, 0, 0)",
+        "indicator_text_wordwrap": "None",
+        "text_align": "TextNode.A_center",
+        "text_scale": "(1, 1)",
+        "text_pos": "(0, 0)",
+        "text_fg": "LVecBase4f(0, 0, 0, 1)",
+        "text_bg": "LVecBase4f(0, 0, 0, 0)",
+        "text_wordwrap": "None",
+        "transparency": "0"
+      },
+      "type": "DirectCheckButton",
+      "parent": "root",
+      "command": "base.messenger.send",
+      "extraArgs": "\"toggleMute\"",
+      "extraOptions": {}
+    },
+    "btnBack": {
+      "element": {
+        "frameSize": "(-1.5249999523162843, 1.6499999523162843, -0.21250001192092896, 0.8250000238418579)",
+        "hpr": "LVecBase3f(0, 0, 0)",
+        "pos": "LPoint3f(0, 0, -0.575)",
+        "scale": "LVecBase3f(0.1, 0.1, 0.1)",
+        "text": "'Back'",
+        "text_align": "TextNode.A_center",
+        "text_scale": "(1, 1)",
+        "text_pos": "(0, 0)",
+        "text_fg": "LVecBase4f(0, 0, 0, 1)",
+        "text_bg": "LVecBase4f(0, 0, 0, 0)",
+        "text_wordwrap": "None",
+        "transparency": "0"
+      },
+      "type": "DirectButton",
+      "parent": "root",
+      "command": "base.messenger.send",
+      "extraArgs": "\"optionBack\"",
+      "extraOptions": {
+        "pressEffect": 1
+      }
+    },
+    "fullscreen": {
+      "element": {
+        "frameSize": "(-3.35, 2.6, -0.213, 0.825)",
+        "hpr": "LVecBase3f(0, 0, 0)",
+        "pos": "LPoint3f(0.045, 0, -0.175)",
+        "scale": "LVecBase3f(0.1, 0.1, 0.1)",
+        "text": "'Fullscreen'",
+        "indicator_hpr": "LVecBase3f(0, 0, 0)",
+        "indicator_pos": "LPoint3f(-2.975, 0, 0.00600002)",
+        "indicator_relief": "'sunken'",
+        "indicator_text_align": "TextNode.A_center",
+        "indicator_text_scale": "(1, 1)",
+        "indicator_text_pos": "(0, -0.2)",
+        "indicator_text_fg": "LVecBase4f(0, 0, 0, 1)",
+        "indicator_text_bg": "LVecBase4f(0, 0, 0, 0)",
+        "indicator_text_wordwrap": "None",
+        "text_align": "TextNode.A_center",
+        "text_scale": "(1, 1)",
+        "text_pos": "(0, 0)",
+        "text_fg": "LVecBase4f(0, 0, 0, 1)",
+        "text_bg": "LVecBase4f(0, 0, 0, 0)",
+        "text_wordwrap": "None",
+        "transparency": "0"
+      },
+      "type": "DirectCheckButton",
+      "parent": "root",
+      "command": "base.messenger.send",
+      "extraArgs": "\"toggleFullscreen\"",
+      "extraOptions": {}
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "ProjectVersion": "0.2a",
+  "EditorConfig": {
+    "usePixel2D": false,
+    "canvasSize": "(-2.0, 2.0, -2.0, 2.0)"
+  },
+  "ComponentList": {
+    "backgroundHelper": {
+      "element": {
+        "frameColor": "(1.0, 1.0, 1.0, 1.0)",
+        "frameSize": "(-1.0, 1.0, -1.0, 1.0)",
+        "hpr": "LVecBase3f(0, 0, 0)",
+        "image": "'/home/fireclaw/workspace/pyweek31/design/Chapter1/Office.png'",
+        "pos": "LPoint3f(0, 0, 0)",
+        "image_scale": "LVecBase3f(1, 1, 1)",
+        "image_pos": "LPoint3f(0, 0, 0)",
+        "transparency": "0"
+      },
+      "type": "DirectFrame",
+      "parent": "root",
+      "command": null,
+      "extraArgs": null,
+      "extraOptions": {}
+    },
+    "table": {
+      "element": {
+        "frameColor": "(1.0, 1.0, 1.0, 0.0)",
+        "frameSize": "(-1, 1, -1, 1)",
+        "hpr": "LVecBase3f(0, 0, 0)",
+        "image": "'chapter1/table.png'",
+        "pos": "LPoint3f(0.55, 0, -0.575)",
+        "sortOrder": "200",
+        "image_scale": "LVecBase3f(0.256, 1, 0.312)",
+        "image_pos": "LPoint3f(0, 0, 0)",
+        "transparency": "1"
+      },
+      "type": "DirectFrame",
+      "parent": "root",
+      "command": null,
+      "extraArgs": null,
+      "extraOptions": {}
+    },
+    "btnFlashlight": {
+      "element": {
+        "frameColor": "(0.8, 0.8, 0.8, 0.0)",
+        "frameSize": "(-0.4, 0.4, -0.4, 0.4)",
+        "hpr": "LVecBase3f(0, 0, 0)",
+        "image": "'chapter1/flashlight.png'",
+        "pos": "LPoint3f(0.39, 0, -0.39)",
+        "relief": "1",
+        "scale": "LVecBase3f(0.1, 0.1, 0.1)",
+        "text": "''",
+        "image_scale": "LVecBase3f(0.4, 0, 0.4)",
+        "image_pos": "LPoint3f(0, 0, 0)",
+        "text_align": "TextNode.A_center",
+        "text_scale": "(1.0, 1.0)",
+        "text_pos": "(0, 0)",
+        "text_fg": "LVecBase4f(0, 0, 0, 1)",
+        "text_bg": "LVecBase4f(0, 0, 0, 0)",
+        "text_wordwrap": "None",
+        "transparency": "1"
+      },
+      "type": "DirectButton",
+      "parent": "root",
+      "command": "base.messenger.send",
+      "extraArgs": "chapter1_flashlight",
+      "extraOptions": {
+        "pressEffect": 1
+      }
+    },
+    "btnTelephone": {
+      "element": {
+        "frameColor": "(0.8, 0.8, 0.8, 0.0)",
+        "frameSize": "(-0.4, 0.4, -0.4, 0.4)",
+        "hpr": "LVecBase3f(0, 0, 0)",
+        "pos": "LPoint3f(0.625, 0, -0.125)",
+        "relief": "1",
+        "scale": "LVecBase3f(0.1, 0.1, 0.1)",
+        "text": "''",
+        "text_align": "TextNode.A_center",
+        "text_scale": "(1, 1)",
+        "text_pos": "(0, 0)",
+        "text_fg": "LVecBase4f(0, 0, 0, 1)",
+        "text_bg": "LVecBase4f(0, 0, 0, 0)",
+        "text_wordwrap": "None",
+        "transparency": "0"
+      },
+      "type": "DirectButton",
+      "parent": "root",
+      "command": "base.messenger.send",
+      "extraArgs": "chapter1_telephone",
+      "extraOptions": {
+        "pressEffect": 1
+      }
+    },
+    "btnDoor": {
+      "element": {
+        "frameColor": "(0.8, 0.8, 0.8, 0.0)",
+        "frameSize": "(-0.5, 0.5, -2.0, 2.0)",
+        "hpr": "LVecBase3f(0, 0, 0)",
+        "pos": "LPoint3f(-0.75, 0, -0.125)",
+        "relief": "1",
+        "scale": "LVecBase3f(0.1, 0.1, 0.1)",
+        "text": "''",
+        "text_align": "TextNode.A_center",
+        "text_scale": "(1, 1)",
+        "text_pos": "(0, 0)",
+        "text_fg": "LVecBase4f(0, 0, 0, 1)",
+        "text_bg": "LVecBase4f(0, 0, 0, 0)",
+        "text_wordwrap": "None",
+        "transparency": "0"
+      },
+      "type": "DirectButton",
+      "parent": "root",
+      "command": "base.messenger.send",
+      "extraArgs": "chapter1_door",
+      "extraOptions": {
+        "pressEffect": 1
+      }
+    },
+    "ringRing": {
+      "element": {
+        "frameColor": "(1.0, 1.0, 1.0, 0.0)",
+        "frameSize": "(-0.1, 0.1, -0.1, 0.1)",
+        "hpr": "LVecBase3f(0, 0, 0)",
+        "image": "'chapter1/ringRing.png'",
+        "pos": "LPoint3f(0.5, 0, -0.025)",
+        "image_scale": "LVecBase3f(0.1, 1, 0.1)",
+        "image_pos": "LPoint3f(0, 0, 0)",
+        "transparency": "1"
+      },
+      "type": "DirectFrame",
+      "parent": "root",
+      "command": null,
+      "extraArgs": null,
+      "extraOptions": {}
+    }
+  }
+}

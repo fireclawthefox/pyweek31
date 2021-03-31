@@ -1,0 +1,110 @@
+{
+  "ProjectVersion": "0.2a",
+  "EditorConfig": {
+    "usePixel2D": false,
+    "canvasSize": "(-2, 2, -2, 2)"
+  },
+  "ComponentList": {
+    "btnBox1": {
+      "element": {
+        "frameColor": "(0.8, 0.8, 0.8, 0.0)",
+        "frameSize": "(-1.0, 1.0, -1.0, 1.0)",
+        "hpr": "LVecBase3f(0, 0, 0)",
+        "image": "'chapter2/box1.png'",
+        "pos": "LPoint3f(-0.25, 0, -0.35)",
+        "relief": "1",
+        "scale": "LVecBase3f(0.05, 0.08, 0.05)",
+        "text": "''",
+        "image_scale": "LVecBase3f(1, 1, 1)",
+        "image_pos": "LPoint3f(0, 0, 0)",
+        "text_align": "TextNode.A_center",
+        "text_scale": "(1.0, 1.0)",
+        "text_pos": "(0, 0)",
+        "text_fg": "LVecBase4f(0, 0, 0, 1)",
+        "text_bg": "LVecBase4f(0, 0, 0, 0)",
+        "text_wordwrap": "None",
+        "transparency": "1"
+      },
+      "type": "DirectButton",
+      "parent": "root",
+      "command": "base.messenger.send",
+      "extraArgs": "\"box1\"",
+      "extraOptions": {
+        "pressEffect": 0
+      }
+    },
+    "btnBox2": {
+      "element": {
+        "frameColor": "(0.8, 0.8, 0.8, 0.0)",
+        "frameSize": "(-1.0, 1.0, -1.0, 1.0)",
+        "hpr": "LVecBase3f(0, 0, 0)",
+        "image": "'chapter2/box2.png'",
+        "pos": "LPoint3f(0.4, 0, 0.16)",
+        "relief": "1",
+        "scale": "LVecBase3f(0.05, 0.08, 0.05)",
+        "text": "''",
+        "image_scale": "LVecBase3f(1, 1, 1)",
+        "image_pos": "LPoint3f(0, 0, 0)",
+        "text_align": "TextNode.A_center",
+        "text_scale": "(1, 1)",
+        "text_pos": "(0, 0)",
+        "text_fg": "LVecBase4f(0, 0, 0, 1)",
+        "text_bg": "LVecBase4f(0, 0, 0, 0)",
+        "text_wordwrap": "None",
+        "transparency": "1"
+      },
+      "type": "DirectButton",
+      "parent": "root",
+      "command": "base.messenger.send",
+      "extraArgs": "\"box2\"",
+      "extraOptions": {
+        "pressEffect": 1
+      }
+    },
+    "btnBox3": {
+      "element": {
+        "frameColor": "(0.8, 0.8, 0.8, 0.0)",
+        "frameSize": "(-1.0, 1.0, -1.0, 1.0)",
+        "hpr": "LVecBase3f(0, 0, 0)",
+        "image": "'chapter2/box3.png'",
+        "pos": "LPoint3f(0.305, 0, -0.435)",
+        "relief": "1",
+        "scale": "LVecBase3f(0.08, 0.1, 0.08)",
+        "text": "''",
+        "image_scale": "LVecBase3f(1, 1, 1)",
+        "image_pos": "LPoint3f(0, 0, 0)",
+        "text_align": "TextNode.A_center",
+        "text_scale": "(1, 1)",
+        "text_pos": "(0, 0)",
+        "text_fg": "LVecBase4f(0, 0, 0, 1)",
+        "text_bg": "LVecBase4f(0, 0, 0, 0)",
+        "text_wordwrap": "None",
+        "transparency": "1"
+      },
+      "type": "DirectButton",
+      "parent": "root",
+      "command": "base.messenger.send",
+      "extraArgs": "\"box3\"",
+      "extraOptions": {
+        "pressEffect": 1
+      }
+    },
+    "overlay": {
+      "element": {
+        "frameColor": "(1.0, 1.0, 1.0, 0.0)",
+        "frameSize": "(-0.8, 0.8, -0.8, 0.8)",
+        "hpr": "LVecBase3f(0, 0, 0)",
+        "image": "'chapter2/overlay.png'",
+        "pos": "LPoint3f(0, 0, 0)",
+        "image_scale": "LVecBase3f(0.8, 1, 0.8)",
+        "image_pos": "LPoint3f(0, 0, 0)",
+        "transparency": "1"
+      },
+      "type": "DirectFrame",
+      "parent": "root",
+      "command": null,
+      "extraArgs": null,
+      "extraOptions": {}
+    }
+  }
+}
